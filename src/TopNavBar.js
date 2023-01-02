@@ -13,7 +13,6 @@ function TopNavBar() {
             <Nav.Link as={Link} to="/DisplayStores">Display Stores</Nav.Link>
             <Nav.Link as={Link} to="/AddStore">Add Store</Nav.Link>
             <Nav.Link as={Link} to="/AddItem">Add Items</Nav.Link>
-            <Nav.Link as={Link} to="/Table">Table</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

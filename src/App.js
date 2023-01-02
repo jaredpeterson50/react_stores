@@ -6,7 +6,6 @@ import AddStore from './AddStore';
 import Home from './Home';
 import DisplayStores from './DisplayStores';
 import AddItem from './AddItem';
-import Table from './Table';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
           <Route path='/AddStore' element={<AddStore/>}></Route>
           <Route path='/DisplayStores' element={<DisplayStores/>}></Route>
           <Route path='/AddItem' element={<AddItem/>}></Route>
-          <Route path='/Table' element={<Table/>}></Route>
         </Routes>
       </Router>
 
